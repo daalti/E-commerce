@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="images/icon-menu.svg" alt="icon menu" class="icon-menu">
+    <img src="images/logo.svg" alt="logo" class="logo">
+    <p class="menu-item-big">Collections</p>
+    <p class="menu-item-big">Men</p>
+    <p class="menu-item-big">Women</p>
+    <p class="menu-item-big">About</p>
+    <p class="menu-item-big">Contact</p>
+    <div class="header-right">
+      <div class="cart-icon">
+        <img src="images/icon-cart.svg" alt="cart" class="cart">
+        <p class="cart-number">0</p>
+      </div>
+      <img src="images/image-avatar.png" alt="avatar" class="avatar">
+    </div>
+
+    <!-- Cart -->
+    <div class="cart-container">
+      <p style="color: black; font-weight: 700;">Cart</p>
+      <div class="line"></div>
+      <p style="text-align: center; margin-top: 5rem; color: black; font-weight: 700;" class="empty">Your cart is empty.</p>
+      <div class="cart-total">
+        <div class="cart-full">
+          <img src="images/image-product-1-thumbnail.jpg" alt="cart image" class="cart-image">
+          <div class="total-container">
+            <p class="total-text">Autumn Limited Edition ...</p>
+            <p class="total-money">$125.00 x <span class="number-shoes"></span><span class="dollars">$100.00</span></p>
+          </div>
+          <img src="images/icon-delete.svg" alt="delete" class="delete">
+        </div>
+        <div>       
+          <button class="btn-checkout">Checkout</button>
+        </div> 
+      </div>
+    </div>
+  </header>
+
+  <div class="line-big"></div>
+
+  <!-- Menu -->
+  <div class="menu-container">
+    <img src="images/icon-close.svg" alt="close icon" class="close">
+    <div class="menu-items">
+      <p class="item">Collections</p>
+      <p class="item">Men</p>
+      <p class="item">Women</p>
+      <p class="item">About</p>
+      <p class="item">Contact</p>
+    </div>
+  </div>
+
+
+
+  <!-- Images -->
+  <main class="main-container">
+    <div class="shoes-images">
+      <img src="images/image-product-1.jpg" alt="image product 1" class="image-product click-image">
+      <div class="next-container">
+        <img src="images/icon-next.svg" alt="next" class="next">
+      </div>
+      <div class="previous-container">
+        <img src="images/icon-previous.svg" alt="previous" class="previous">
+      </div>
+      <div class="bottom-shoes">
+        <div class="little-image">
+          <img src="images/image-product-1-thumbnail.jpg" alt="image product 1 thumbnail" class="l-image border">
+        </div>
+        <div class="little-image">
+          <img src="images/image-product-2-thumbnail.jpg" alt="image product 2 thumbnail" class="l-image">
+        </div>
+        <div class="little-image">
+          <img src="images/image-product-3-thumbnail.jpg" alt="image product 3 thumbnail" class="l-image">
+        </div>
+        <div class="little-image">
+          <img src="images/image-product-4-thumbnail.jpg" alt="image product 4 thumbnail" class="l-image">
+        </div>
+      </div>
+    </div>
+
+    <!-- Text Section -->
+    <!-- Text -->
+    <section class="text-container">
+      <h1>SNEAKER COMPANY</h1>
+      <h2>Fall Limited Edition Sneakers</h2>
+      <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
+        durable rubber outer sole, they’ll withstand everything the weather can offer.
+      </p>
+    
+      <!-- Money -->
+      <div class="money-container">
+        <p class="money">$125.00</p>
+        <p class="discount">50%</p>
+        <p class="old-money">$250.00</p>
+      </div>
+
+      <!-- Quantity-->
+      <div class="bottom">
+        <div class="quantity">
+          <img src="images/icon-minus.svg" alt="minus" class="minus">
+          <p class="number">0</p>
+          <img src="images/icon-plus.svg" alt="plus" class="plus">
+        </div>
+
+        <!-- Button -->
+        <button class="btn-add">
+          <img src="images/icon-cart.svg" alt="cart btn" class="cart-btn">
+          Add to cart
+        </button>
+      </div>
+
+    </section>
+  </main>
+    <!-- big images -->
+    <div class="main-container big">
+      <img src="images/icon-close.svg" alt="close icon" class="close-icon">
+      <div class="shoes-images">
+        <img src="images/image-product-1.jpg" alt="image product 1" class="image-product">
+        <div class="next-container bigger-next">
+          <img src="images/icon-next.svg" alt="next" class="next img">
+        </div>
+        <div class="previous-container bigger-previous">
+          <img src="images/icon-previous.svg" alt="previous" class="previous img">
+        </div>
+        <div class="bottom-shoes">
+          <div class="little-image">
+            <img src="images/image-product-1-thumbnail.jpg" alt="image product 1 thumbnail" class="l-image border">
+          </div>
+          <div class="little-image">
+            <img src="images/image-product-2-thumbnail.jpg" alt="image product 2 thumbnail" class="l-image">
+          </div>
+          <div class="little-image">
+            <img src="images/image-product-3-thumbnail.jpg" alt="image product 3 thumbnail" class="l-image">
+          </div>
+          <div class="little-image">
+            <img src="images/image-product-4-thumbnail.jpg" alt="image product 4 thumbnail" class="l-image">
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+<script src="js/main.js"></script>
+</html>
